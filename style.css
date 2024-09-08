@@ -1,0 +1,135 @@
+*{
+    font-family: "Montserrat", system-ui;
+}
+/* Navbar Edit */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+@media (min-width: 1400px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
+.navbar-btn{
+    border-radius: 14px;
+    padding: 15px 30px;
+    border: 1px solid black;
+    color: black;
+}
+/* Display Section */
+.display-heading{
+ font-size: 60px;
+}
+@media only screen and (max-width: 786px) {
+    .display-heading{
+        font-size: 40px;
+       }
+}
+.display-section-btn{
+    border-radius: 14px;
+    padding: 15px 30px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+}
+@media only screen and (max-width: 786px) {
+    .display-section-btn{
+      width: 100%;
+    }
+}
+.display-paragraph{
+    font-size: 19px;
+}
+.display_image{
+    width: 100%;
+}
+/* Brand Logo Section */
+.brand-wrapper {
+    display: flex;
+    padding: 28px 0px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+/* Servicves Sections */
+.services-heading{
+    background-color: #b9ff66;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 7px;
+    font-size: 35px;
+}
+@media only screen and (max-width: 1200px) {
+    .services-heading{
+        background-color: #b9ff66;
+        color: black;
+        padding: 3px 10px;
+        border-radius: 7px;
+        font-size: 29px;
+    }
+}
+.custom-services-box{
+    padding: 70px 35px;
+}
+@media only screen and (max-width: 1200px) {
+    .custom-services-box{
+        padding: 30px 35px;
+    }
+}
+.custom-card-title{
+    font-size: 29px;
+    background: #B9FF66;
+    color: black;
+    padding: 7px;
+    border-radius: 8px;
+}
+.custom-card-title-2{
+    font-size: 29px;
+    background: #fff;
+    color: black;
+    padding: 7px;
+    border-radius: 8px;
+}
+.learn-more-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+/* FAQS */
+.accordion-button{
+    font-size: 30px;
+    font-weight: 500;
+    background: none !important;
+}
+@media only screen and (max-width: 1200px) {
+    .accordion-button{
+        font-size: 20px;
+        font-weight: 500;
+        background: none !important;
+    }
+}
+.accordion-item{
+    border: 1px solid black !important;
+    border-radius: 45px !important;
+    padding: 29px 59px;
+    border-bottom: 4px solid black !important;
+}
+@media only screen and (max-width: 1200px) {
+    .accordion-item {
+        border: 1px solid black !important;
+        border-radius: 45px !important;
+        padding: 13px 11px;
+        border-bottom: 4px solid black !important;
+    }
+}
+.accordion-button:not(.collapsed){
+    color: black !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
